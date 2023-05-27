@@ -7,6 +7,9 @@ class App extends React.Component {
     return (
       <div className="container">
         <div className="welcomeText">Welcome to Lochland</div>
+        <a href="https://github.com/LochlanOdlum" className="github-ref">
+          Github
+        </a>
       </div>
     );
   }

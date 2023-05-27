@@ -1,14 +1,19 @@
 body {
-    background-color:  #ffffff;
-    margin: 0 0;
+  background-color: #ffffff;
+  margin: 0 0;
 }
 .container {
-    display:flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .welcomeText {
-    font-size: 40px;
+  font-size: 40px;
+}
+
+.github-ref {
+  display: block;
 }
